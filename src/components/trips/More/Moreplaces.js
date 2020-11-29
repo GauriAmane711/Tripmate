@@ -62,7 +62,8 @@ function Moreplaces() {
           <Home  style={{fill:'green',fontSize:'200%'}}/>
           </Link>
           </div>
-
+<br/>
+<br/>
     <div className="center">
        <h5>Tropical <Sun style={{ fill: "rgb(243, 243, 18)", fontSize:'100%' }}  /> Vacations</h5>
     </div>

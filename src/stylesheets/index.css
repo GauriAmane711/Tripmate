@@ -224,7 +224,7 @@ tr:nth-child(even) {
   flex-direction: row; */
   /* border: 3px solid green; */
   position: relative;
-  left: 42vh;
+  left: 45vh;
 }
 .trips-list {
   /* border: 3px solid green; */
@@ -234,7 +234,6 @@ tr:nth-child(even) {
   /* border: 3px solid green; */
   width: 50%;
   position: relative;
-  right: 5vh;
 }
 .route-container .form-container .form {
   display: flex;

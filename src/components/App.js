@@ -57,7 +57,6 @@ export class App extends React.Component {
             <div className="app">             
                 <Router>
                     <div className="route-container">
-                        <Nav />
                         <Route path="/Moreplaces" component={Moreplaces}/>
                         <Switch>
                             <Route exact path="/" render={(props) => (
