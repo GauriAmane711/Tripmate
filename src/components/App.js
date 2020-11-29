@@ -2,11 +2,9 @@ import React from 'react';
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 
 // Components
-import { Nav } from './Nav';
 import { TripsCount } from './trips/TripsCount';
 import { AddTrip } from './trips/AddTrip';
 import { TripsList } from './trips/TripsList';
-import { Error404 } from './Error404';
 import Moreplaces from './trips/More/Moreplaces';
 
 
@@ -87,7 +85,7 @@ export class App extends React.Component {
                                     newTrip={this.addTrip}
                                 />
                             )} />
-                            <Route component={Error404} />
+                        
                         </Switch>
                     </div>                    
                 </Router>                 
